@@ -10,20 +10,20 @@ const styles = StyleSheet.create({
     height: 64,
     paddingHorizontal: 16,
     backgroundColor: "#1E1E2D",
-    borderRadius: 20,
+    borderRadius: 10,
     borderWidth: 2,
     borderColor: "#232533",
   },
   input: {
     fontSize: 16,
-    color: "#FFFFFF",
+    color: Colors.lightGrey,
     flex: 1,
     fontFamily: "Poppins-Regular",
     marginTop: 2,
   },
   searchIcon: {
-    width: 20,
-    height: 20,
+    width: 16,
+    height: 16,
   },
 });
 
