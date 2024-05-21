@@ -1,6 +1,6 @@
 import { View, Text, Image } from "react-native";
-import { images } from "../../constants";
-import CustomButton from "./UI/CustomButton";
+import { images } from "../../../constants";
+import CustomButton from "./CustomButton";
 import styles from "./EmptyState.styles";
 import { useNavigation } from "@react-navigation/native";
 
