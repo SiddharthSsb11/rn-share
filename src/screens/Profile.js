@@ -19,7 +19,7 @@ const Profile = ({ route, navigation }) => {
   const { data: posts } = useAppwrite(() => getUserPosts(user.$id));
 
   const logout = async () => {
-    console.log("--logout--");
+    // console.log("--logout--");
     await signOut();
     setUser(null);
     setIsLoggedIn(false);

@@ -3,7 +3,7 @@ import { Colors } from "../../../constants/colors";
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "#FFA001",
+    backgroundColor: Colors.yellow,
     borderRadius: 10,
     minHeight: 62,
     flexDirection: "row",
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     opacity: 0.5,
   },
   buttonText: {
-    color: "#161622",
+    color: Colors.primary,
     fontSize: 16,
     fontFamily: "Poppins-SemiBold",
   },

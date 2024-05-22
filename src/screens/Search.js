@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { View, Text, FlatList, SafeAreaView } from "react-native";
 import { searchPosts } from "../../lib/appwrite";
 import useAppwrite from "../../lib/useAppwrite";
-import EmptyState from "../components/EmptyState";
+import EmptyState from "../components/UI/EmptyState";
 import SearchInput from "../components/SearchInput";
 import VideoCard from "../components/VideoCard";
 import styles from "./Search.styles";

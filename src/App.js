@@ -7,7 +7,6 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import Create from "./screens/Create";
 import Profile from "./screens/Profile";
 import Home from "./screens/Home";
-import Bookmark from "./screens/Bookmark";
 import Search from "./screens/Search";
 import Onboarding from "./screens/Onboarding";
 import Signin from "./screens/Signin";
@@ -111,7 +110,7 @@ const App = () => {
                 ),
               }}
             />
-            <BottomTabs.Screen
+            {/* <BottomTabs.Screen
               name="Bookmark"
               component={Bookmark}
               options={{
@@ -121,12 +120,12 @@ const App = () => {
                   <FontAwesome name="bookmark" size={size} color={color} />
                 ),
               }}
-            />
+            /> */}
             <BottomTabs.Screen
               name="Search"
               component={Search}
               options={{
-                tabBarButton: () => null, // Hide tab bar icon for Search screen
+                tabBarButton: () => null, // Hiding tab bar icon for Search screen
               }}
             />
           </BottomTabs.Navigator>

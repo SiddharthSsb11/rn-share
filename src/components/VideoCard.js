@@ -47,13 +47,13 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
           </View>
         </View>
 
-        <View style={styles.dotsContainer}>
+        {/* <View style={styles.dotsContainer}>
           <Entypo
             name="dots-three-vertical"
             size={24}
             color={Colors.lightGrey}
           />
-        </View>
+        </View> */}
       </View>
 
       {play ? (

@@ -5,16 +5,13 @@ import {
   Text,
   View,
   SafeAreaView,
-  StyleSheet,
 } from "react-native";
 import { useState } from "react";
-import CustomButton from "../components/UI/CustomButton";
 import { useGlobalContext } from "../../store/GlobalProvider";
 import { getAllPosts, getLatestPosts } from "../../lib/appwrite";
-import { Colors } from "../../constants/colors";
 import { images } from "../../constants";
 import useAppwrite from "../../lib/useAppwrite";
-import EmptyState from "../components/EmptyState";
+import EmptyState from "../components/UI/EmptyState";
 import SearchInput from "../components/SearchInput";
 import Trending from "../components/Trending";
 import VideoCard from "../components/VideoCard";

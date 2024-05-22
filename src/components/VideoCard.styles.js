@@ -7,14 +7,13 @@ const styles = StyleSheet.create({
     marginHorizontal: 12,
     paddingHorizontal: 20,
     marginBottom: 32,
-    // borderWidth: 1,
-    // borderColor: Colors.lightGrey,
   },
   row: {
     flexDirection: "row",
     alignItems: "flex-start", //start
-    justifyContent: "space-between",
+    justifyContent: "flex-start",
     marginBottom: 2,
+    width: "108%",
   },
   profileContainer: {
     flexDirection: "row",
