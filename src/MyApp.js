@@ -19,7 +19,7 @@ const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
 
 SplashScreen.preventAutoHideAsync();
-const App = () => {
+const MyApp = () => {
   const { isLoading, isLoggedIn } = useGlobalContext();
   // console.log("---isloggedin---", isLoggedIn);
   const [fontsLoaded, error] = useFonts({
@@ -145,4 +145,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MyApp;
